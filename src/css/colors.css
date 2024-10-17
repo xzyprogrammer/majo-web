@@ -1,0 +1,15 @@
+:root{
+    /* Colores primario */
+    --clr-primario-light:#DB90CE;
+    --clr-primario:#9b59b6;
+    --clr-primario-dark:#8D51A6;
+
+    /* Colores secundarios */
+    --clr-secundario-light:#ef9e6b;
+    --clr-secundario:#E67E22;
+    --clr-secundario-dark:#d2641f;
+
+    /* Colores de apoyo */
+    --clr-verde:#2ECC71;
+    --clr-azul:#3498DB;
+}

@@ -1,0 +1,14 @@
+/* Flex combinaciones */
+.Center,.CenterTop,.leftTop,.leftCenter,.leftBottom,.rightTop,.rightCenter,.rightBottom,.betweenTop,.betweenCenter,.betweenBottom,.aroundTop,.aroundCenter,.aroundBottom{display:flex;}
+.leftTop,.rightTop,.betweenTop.aroundTop{align-items:flex-start;}
+.Center,.leftCenter,.rightCenter,.betweenCenter,.aroundCenter{align-items:center;}
+.centerBottom,.leftBottom,.rightBottom.betweenBottom.aroundBottom{align-items:flex-end;}
+.Center{justify-content:center;}
+.leftTop,.leftCenter,.leftBottom{justify-content:flex-start;}
+.rightTop,.rightCenter,.rightBottom{justify-content:flex-end;}
+.betweenTop,.betweenCenter,.betweenBottom{justify-content:space-between;}
+.aroundTop,.aroundCenter,.aroundBottom{justify-content:space-around;}
+.flow{flex-flow:row wrap;}
+.gap{gap:var(--gap);}
+.gapMini{gap:calc(var(--gap)/ 2);}
+.column{flex-direction:column;}

@@ -1,5 +1,7 @@
 <template>
-    <div class="navbar">
+    <main>
+    </main>
+    <!-- <div class="navbar">
         <p>Navbar</p>
     </div>
     <div class="main-content">
@@ -15,25 +17,26 @@
     </div>
     <div class="footer">
         <p>Footer</p>
-    </div>
+    </div> -->
 </template>
+
 <script>
 
-export default {
-  data() {
-    return {
-      navbarOptions: [
-        { text: "Home", link: "/", class: "btn-home" },
-        { text: "About", link: "/about", class: "btn-about" },
-        { text: "Contact", link: "/contact", class: "btn-contact" }
-      ]
-    };
-  },
-  methods: {
-    mounted(){
-        console.log(this.navbarOptions);
+export default{
+    data(){
+        return{
+        /* navbarOptions: [
+            { text: "Home", link: "/", class: "btn-home" },
+            { text: "About", link: "/about", class: "btn-about" },
+            { text: "Contact", link: "/contact", class: "btn-contact" }
+        ] */
+            };
+        },
+    methods:{
+        mounted(){
+            console.log(this.navbarOptions);
+        }
     }
-  }
 }
 
 </script>

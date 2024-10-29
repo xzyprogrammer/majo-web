@@ -7,3 +7,9 @@ export default{
     name:'Colaboradores-view'
 }
 </script>
+
+<style>
+p{
+    font-style: var();
+}
+</style>
